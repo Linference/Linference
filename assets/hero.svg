@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">LIN KIT — Linference</title>
+  <desc id="heroDesc">深色渐变横幅：LIN KIT，Lin + Inference = Linference，澳门 · 濠江中学</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="45%" stop-color="#0b1524"/>
+      <stop offset="100%" stop-color="#150f2b"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="48%" stop-color="#a9d5ff"/>
+      <stop offset="100%" stop-color="#c8a5ff"/>
+    </linearGradient>
+    <linearGradient id="accentRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5aa2ff"/>
+      <stop offset="100%" stop-color="#b07dff"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8cb4ff" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#8cb4ff" stop-opacity="0.38"/>
+      <stop offset="82%" stop-color="#b07dff" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#b07dff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f6fe0" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#2f6fe0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a3fd0" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#7a3fd0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="nameShadow" x="-20%" y="-40%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#07101f" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <ellipse cx="960" cy="40" rx="420" ry="290" fill="url(#glowA)"/>
+  <ellipse cx="1160" cy="430" rx="360" ry="250" fill="url(#glowB)"/>
+
+  <!-- 推理网络：节点、连线与沿路径移动的信号 -->
+  <g stroke="#88b4ff" stroke-linecap="round">
+    <line x1="790" y1="140" x2="902" y2="88" stroke-opacity="0.22"/>
+    <line x1="902" y1="88" x2="1026" y2="124" stroke-opacity="0.16"/>
+    <line x1="1026" y1="124" x2="1000" y2="206" stroke-opacity="0.26"/>
+    <line x1="1000" y1="206" x2="1122" y2="196" stroke-opacity="0.14"/>
+    <line x1="1122" y1="196" x2="1090" y2="294" stroke-opacity="0.20"/>
+    <line x1="1090" y1="294" x2="972" y2="330" stroke-opacity="0.14"/>
+    <line x1="972" y1="330" x2="872" y2="258" stroke-opacity="0.18"/>
+    <line x1="872" y1="258" x2="1000" y2="206" stroke-opacity="0.24"/>
+    <line x1="872" y1="258" x2="790" y2="140" stroke-opacity="0.15"/>
+    <line x1="872" y1="258" x2="736" y2="232" stroke-opacity="0.12"/>
+  </g>
+
+  <g fill="#9fc4ff">
+    <circle cx="790" cy="140" r="2.6" opacity="0.5"/>
+    <circle cx="902" cy="88" r="2.2" opacity="0.38"/>
+    <circle cx="1026" cy="124" r="2.8" opacity="0.5"/>
+    <circle cx="1122" cy="196" r="2.2" opacity="0.34"/>
+    <circle cx="1090" cy="294" r="2.6" opacity="0.42"/>
+    <circle cx="972" cy="330" r="2.2" opacity="0.35"/>
+    <circle cx="872" cy="258" r="2.6" opacity="0.46"/>
+    <circle cx="736" cy="232" r="2" opacity="0.3"/>
+  </g>
+
+  <g>
+    <circle cx="1000" cy="206" r="5" fill="#cfe4ff"/>
+    <circle cx="1000" cy="206" r="5" fill="none" stroke="#9fc4ff" stroke-width="1.2" opacity="0.75">
+      <animate attributeName="r" values="5;19;5" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;0;0.75" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="206" r="11" fill="none" stroke="#9fc4ff" stroke-width="0.8" opacity="0.3"/>
+    <circle r="2.6" fill="#e3efff">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M790,140 L902,88 L1026,124 L1000,206"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" fill="#6f8fbf" font-size="12" letter-spacing="3.2">
+    <text x="88" y="92">MACAU · 22.19°N 113.54°E</text>
+  </g>
+
+  <text x="86" y="198" filter="url(#nameShadow)" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="88" font-weight="700" letter-spacing="4" fill="url(#nameFill)">LIN KIT</text>
+
+  <rect x="88" y="224" width="96" height="2.5" rx="1.25" fill="url(#accentRule)"/>
+
+  <text x="88" y="274" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', system-ui, sans-serif" font-size="23" fill="#cdd9f2">把想法，一路推到能跑起来的那一步。</text>
+
+  <text x="88" y="308" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12.5" letter-spacing="2.6" fill="#7f93b8">LIN + INFERENCE = LINFERENCE</text>
+
+  <g font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" letter-spacing="1.6">
+    <rect x="88" y="332" width="92" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="134" y="352" text-anchor="middle" fill="#aebfdd">MACAU</text>
+
+    <rect x="190" y="332" width="104" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="242" y="352" text-anchor="middle" fill="#aebfdd" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" letter-spacing="2">濠江中学</text>
+
+    <rect x="304" y="332" width="76" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="342" y="352" text-anchor="middle" fill="#aebfdd">3DGS</text>
+
+    <rect x="390" y="332" width="106" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="443" y="352" text-anchor="middle" fill="#aebfdd">AI AGENTS</text>
+
+    <rect x="506" y="332" width="124" height="30" rx="15" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.13"/>
+    <text x="568" y="352" text-anchor="middle" fill="#aebfdd">LOCAL-FIRST</text>
+  </g>
+
+  <rect x="88" y="392" width="1024" height="1" fill="url(#hairline)"/>
+
+  <text x="1112" y="384" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" letter-spacing="1.8" fill="#5f7799">github.com/Linference</text>
+</svg>
