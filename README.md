@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=2" width="100%" alt="LIN KIT · Linference" />
+<img src="assets/banner.svg" width="100%" alt="LIN KIT · Linference" />
 
 <br/>
 
