@@ -80,7 +80,7 @@
     </circle>
   </g>
 
-  <text x="88" y="92" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="3.2" fill="#6f8fbf">MACAU · 22.19°N 113.54°E</text>
+  <text x="88" y="92" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="3.2" fill="#7f9dc9">MACAU · 22.19°N 113.54°E</text>
 
   <text x="86" y="200" filter="url(#nameShadow)" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="92" font-weight="700" letter-spacing="4" fill="url(#nameFill)">LIN KIT</text>
 
@@ -88,9 +88,9 @@
 
   <text x="88" y="280" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', system-ui, sans-serif" font-size="25" fill="#cdd9f2">把想法，一路推到能跑起来的那一步。</text>
 
-  <text x="88" y="316" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="12.5" letter-spacing="2.6" fill="#7f93b8">LIN + INFERENCE = LINFERENCE</text>
+  <text x="88" y="316" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="2.6" fill="#9db2d2">LIN + INFERENCE = LINFERENCE</text>
 
-  <text x="88" y="346" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="11.5" letter-spacing="2.2" fill="#4f668c">CV · 3DGS · AI AGENTS · LOCAL-FIRST</text>
+  <text x="88" y="346" font-family="'SF Mono', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2.2" fill="#6a81a6">CV · 3DGS · AI AGENTS · LOCAL-FIRST</text>
 
   <rect x="88" y="392" width="1024" height="1" fill="url(#hairline)"/>
 
