@@ -27,6 +27,11 @@
       <stop offset="0%" stop-color="#3769c0" stop-opacity="0.18"/>
       <stop offset="100%" stop-color="#3769c0" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="networkHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7696ff" stop-opacity="0.18"/>
+      <stop offset="58%" stop-color="#5a6fd4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#5a6fd4" stop-opacity="0"/>
+    </radialGradient>
     <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#2f6fe0" stop-opacity="0.42"/>
       <stop offset="100%" stop-color="#2f6fe0" stop-opacity="0"/>
@@ -47,22 +52,23 @@
   <rect width="1200" height="420" fill="url(#grid)"/>
   <ellipse cx="345" cy="195" rx="390" ry="220" fill="url(#titleGlow)"/>
   <ellipse cx="960" cy="40" rx="420" ry="290" fill="url(#glowA)"/>
+  <ellipse cx="995" cy="204" rx="235" ry="190" fill="url(#networkHalo)"/>
   <ellipse cx="1160" cy="430" rx="360" ry="250" fill="url(#glowB)"/>
 
   <!-- 推理网络：节点、连线与沿路径移动的信号 -->
-  <g stroke="#88b4ff" stroke-linecap="round">
-    <line x1="790" y1="140" x2="902" y2="88" stroke-opacity="0.22"/>
-    <line x1="902" y1="88" x2="1026" y2="124" stroke-opacity="0.16"/>
-    <line x1="1026" y1="124" x2="1000" y2="206" stroke-opacity="0.26"/>
-    <line x1="1000" y1="206" x2="1122" y2="196" stroke-opacity="0.14"/>
-    <line x1="1122" y1="196" x2="1090" y2="294" stroke-opacity="0.20"/>
-    <line x1="1090" y1="294" x2="972" y2="330" stroke-opacity="0.14"/>
-    <line x1="972" y1="330" x2="872" y2="258" stroke-opacity="0.18"/>
-    <line x1="872" y1="258" x2="1000" y2="206" stroke-opacity="0.24"/>
-    <line x1="872" y1="258" x2="790" y2="140" stroke-opacity="0.15"/>
+  <g stroke="#98beff" stroke-linecap="round" stroke-width="1.2">
+    <line x1="790" y1="140" x2="902" y2="88" stroke-opacity="0.34"/>
+    <line x1="902" y1="88" x2="1026" y2="124" stroke-opacity="0.26"/>
+    <line x1="1026" y1="124" x2="1000" y2="206" stroke-opacity="0.38"/>
+    <line x1="1000" y1="206" x2="1122" y2="196" stroke-opacity="0.24"/>
+    <line x1="1122" y1="196" x2="1090" y2="294" stroke-opacity="0.30"/>
+    <line x1="1090" y1="294" x2="972" y2="330" stroke-opacity="0.24"/>
+    <line x1="972" y1="330" x2="872" y2="258" stroke-opacity="0.28"/>
+    <line x1="872" y1="258" x2="1000" y2="206" stroke-opacity="0.36"/>
+    <line x1="872" y1="258" x2="790" y2="140" stroke-opacity="0.25"/>
   </g>
 
-  <g fill="#9fc4ff">
+  <g fill="#b8d4ff">
     <circle cx="790" cy="140" r="2.6" opacity="0.5"/>
     <circle cx="902" cy="88" r="2.2" opacity="0.38"/>
     <circle cx="1026" cy="124" r="2.8" opacity="0.5"/>
@@ -73,7 +79,8 @@
   </g>
 
   <g>
-    <circle cx="1000" cy="206" r="5" fill="#cfe4ff" filter="url(#nameShadow)"/>
+    <circle cx="1000" cy="206" r="42" fill="none" stroke="#a5c4ff" stroke-width="0.8" stroke-opacity="0.13" stroke-dasharray="2 8"/>
+    <circle cx="1000" cy="206" r="5" fill="#e1eeff" filter="url(#nameShadow)"/>
     <circle cx="1000" cy="206" r="5" fill="none" stroke="#9fc4ff" stroke-width="1.2" opacity="0.75">
       <animate attributeName="r" values="5;19;5" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.75;0;0.75" dur="5s" repeatCount="indefinite"/>
@@ -89,7 +96,7 @@
 
   <text x="86" y="200" filter="url(#nameShadow)" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif" font-size="92" font-weight="700" letter-spacing="4" fill="url(#nameFill)">LIN KIT</text>
 
-  <rect x="88" y="228" width="96" height="2.5" rx="1.25" fill="url(#accentRule)"/>
+  <rect x="88" y="228" width="124" height="2.5" rx="1.25" fill="url(#accentRule)"/>
 
   <text x="88" y="280" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', system-ui, sans-serif" font-size="25" fill="#cdd9f2">把想法，一路推到能跑起来的那一步。</text>
 
