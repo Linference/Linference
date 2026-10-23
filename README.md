@@ -2,9 +2,7 @@
 
 <img src="assets/profile-banner.svg" width="100%" alt="LIN KIT · Linference" />
 
-<br/>
-
-**学生开发者 · 澳门 · 把想法做成能跑的东西**
+<p align="center">学生开发者 · 澳门 · 把想法做成能跑的东西</p>
 
 </div>
 
